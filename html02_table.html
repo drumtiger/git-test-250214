@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기</title>
+</head>
+<body>
+    <h1>표 만들기</h1>
+    <table border="3">
+        <caption>꽃</caption> <!-- caption(표 제목) 가운데 정렬 -->
+        <thead> <!-- 시맨틱 태그 -->
+
+        <tr>
+            <th>해바라기</th> <!-- th: 가운데 정렬, 볼드체 -->
+            <th>민들레
+                <img src="../img/01.jpg" width="200"/> 첫번째글자<br/>두번째글자 <!-- 상대주소 -->
+            </th>
+            <th>장미</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>코스모스
+                <ol type="i">
+                    <li>사과</li>
+                    <li>메론</li>
+                    <li>귤</li>
+                </ol>
+            </td>
+            <td>히야신스
+                <ul type="circle">
+                    <li>딸기</li>
+                    <li>포도</li>
+                    <li>수박</li>
+                </ul>
+            </td>
+            <td>백합
+                <ul>
+                    <li>바나나</li>
+                    <li>파인애플</li>
+                    <li>오렌지</li>
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>111</td>
+                        <td>222</td>
+                    </tr>
+                    <tr>
+                        <td>333</td>
+                        <td>444</td>
+                    </tr>
+                </table>
+            </td>
+            <td>포인세티아</td>
+            <td>동백</td>
+        </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
